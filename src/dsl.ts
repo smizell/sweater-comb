@@ -26,7 +26,7 @@ import {
   OpenAPIV3,
 } from "@useoptic/openapi-utilities";
 import { genericEntityRuleImpl } from "@useoptic/api-checks/build/sdk/generic-entity-rule-impl";
-import { ShouldOrMust } from "@useoptic/api-checks/build/sdk/types";
+import { ShouldOrMust } from "@useoptic/openapi-utilities";
 import { jsonPointerHelpers } from "@useoptic/json-pointer-helpers";
 
 type SnykStablity = "wip" | "experimental" | "beta" | "ga";
